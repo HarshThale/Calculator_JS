@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(92, 25, 193);
+}
+.change-color{
+    color: rgb(92, 25, 193);
+}
+
+.wrapper{
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    height: 27rem;
+    /* width: 30rem; */
+    background-color: #fff;
+    margin-top: 3rem;
+}
+
+.header{
+    text-align: center;
+    margin: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.amount{
+    margin: 2rem;
+}
+
+.amount-label{
+    
+}
+
+.searchBox{
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 25rem;
+}
+
+.drop-lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    
+}
+
+.drop-list{
+    /* margin-right: 1rem; */
+    /* margin-top: 0.9rem; */
+}
+
+.drop-gap{
+    margin-right: 7rem;
+}
+
+.list{
+    margin-top: 0.5rem;
+    /* padding: 2rem; */
+    /* margin-right: 6rem; */
+}
+
+.list-size{
+    height: 2rem;
+    width: 9rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* margin-top: 2rem; */
+    padding: 2.5rem;
+}
+
+.btn-style{
+    margin: 0rem 0rem 0rem 0rem;
+    height: 2rem;
+    width: 12rem;
+    background-color: rgb(92, 25, 193);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#finalAmount{
+    text-align: center;
+}
+
+.finalValue{
+    color: rgb(92, 25, 193);
+}
